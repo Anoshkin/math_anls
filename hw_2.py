@@ -11,3 +11,5 @@ set.difference(c,b)
 set.symmetric_difference(a,c)
 
 set.intersection(set.difference(set.union(set.difference(c,b),a),c),b)
+
+das
