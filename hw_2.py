@@ -12,4 +12,9 @@ set.symmetric_difference(a,c)
 
 set.intersection(set.difference(set.union(set.difference(c,b),a),c),b)
 
-das
+from fractions import Fraction
+
+n = int(input('lim 1/n    n = ?: '))
+
+lim = Fraction(1, n)
+print('%.12f' % lim)
